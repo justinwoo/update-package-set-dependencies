@@ -1,0 +1,17 @@
+{
+    "name": "update-package-set-dependencies",
+    "set": "master",
+    "source": "https://github.com/purescript/package-sets.git",
+    "depends": [
+        "node-process",
+        "strings",
+        "prettier",
+        "simple-json",
+        "milkis",
+        "node-fs-aff",
+        "prelude",
+        "psci-support",
+        "console",
+        "eff"
+    ]
+}
